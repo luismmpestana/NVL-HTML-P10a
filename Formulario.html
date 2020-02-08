@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<div>
+		<label for="Código postal"> Código postal</label>
+		<input id="Código P" type="text">
+	</div>
+	<div>
+		<label for="Cuán satisfecho está"> Cuán satisfecho está con nuestro producto</label>
+			<select id="Satisfacción">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+	</div>
+	<div>
+		<label for="Email">Email</label>
+		<input id="Email" type="text">
+	</div>
+	<div>
+		<label for="Comentarios">Qué fue lo que más le gustó</label>
+		<textarea id="Positivos"></textarea>>
+	</div>
+	<div>
+		<label for="Comentarios">Qué debemos mejorar</label>
+		<textarea id="Mejoras"></textarea>>
+	</div>
+	<div>
+		<label for="Imagen">Consideras que la imagen del producto es</label>
+		<select id="imagen">
+			<option value="Excelente">Excelente</option>
+			<option value="Bueno">Bueno</option>
+			<option value="Regular">Regular</option>
+			<option value="Pésimo">Pésimo</option>
+		</select>
+	</div>
+	<div>
+		<label for="Recomendación" id="Recomendación">Recomendarías este producto como</label>
+			<input type="radio" name="Excelente"> Excelente
+			<input type="radio" name="Bueno"> Bueno
+			<input type="radio" name="Regular"> Regular
+			<input type="radio" name="Pésimo"> Pésimo
+	</div>
+	<button type="submit">Enviar</button>
+</body>
+</html>
